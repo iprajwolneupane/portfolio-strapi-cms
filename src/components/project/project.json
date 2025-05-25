@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_project_projects",
+  "info": {
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skill.skill",
+      "required": true
+    },
+    "live_url": {
+      "type": "string"
+    },
+    "repo_url": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    }
+  }
+}

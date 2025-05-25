@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project"
+    }
+  }
+}

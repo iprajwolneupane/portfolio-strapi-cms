@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_abouts",
+  "info": {
+    "displayName": "About"
+  },
+  "options": {},
+  "attributes": {
+    "github_url": {
+      "type": "string",
+      "required": true
+    },
+    "linked_url": {
+      "type": "string",
+      "required": true
+    },
+    "cv_url": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
